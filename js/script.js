@@ -13,15 +13,16 @@ var showMenu = function showMenu(idToggle, idMenu) {
 
 showMenu('main-toggle', 'main-menu');
 
-var comments = function comments(id) {
-  var fbComments = "<div class = \"fb-comments\" data-href = \"".concat(location.href, "\" data-width = \"\" data-numposts = \"5\" > </div>");
-  var container = document.getElementById(id);
-  addEventListener('DOMContentLoaded', function () {
-    if (id) container.innerHTML = fbComments;
-  });
-};
+// var comments = function comments(id) {
+//   var fbComments = "<div class = \"fb-comments\" data-href = \"".concat(location.href, "\" data-width = \"\" data-numposts = \"5\" > </div>");
+//   var container = document.getElementById(id);
+//   addEventListener('DOMContentLoaded', function () {
+//     if (id) container.innerHTML = fbComments;
+//   });
+// };
 
-comments('container'); // FORMULARIO
+// comments('container'); 
+// FORMULARIO
 // const form = document.getElementById('formulario')
 // form.addEventListener('submit', function (e) {
 //     e.preventDefault();
