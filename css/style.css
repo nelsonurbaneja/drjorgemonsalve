@@ -737,11 +737,11 @@ h3 {
   text-transform: uppercase;
   color: #2B3E4D;
 }
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .main-services__title {
-      margin-top: 50px;
+      margin-top: 20px;
   }
-} */
+}
 
 .services-container {
   display: grid;
@@ -895,6 +895,11 @@ h3 {
   margin: 0;
   color: #2B3E4D;
   font-weight: bold;
+}
+@media screen and (max-width: 320px) {
+  .main-footer__text {
+      font-size: .7rem;
+  }
 }
 
 .main-footer__text a {
