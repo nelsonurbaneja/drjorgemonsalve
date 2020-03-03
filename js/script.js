@@ -22,19 +22,36 @@ showMenu('main-toggle', 'main-menu');
 // };
 
 // comments('container'); 
-// FORMULARIO
-// const form = document.getElementById('formulario')
-// form.addEventListener('submit', function (e) {
-//     e.preventDefault();
-//     let nombre = e.target.nombre.value
-//     let correo = e.target.correo.value
-//     let telefono = e.target.nombre.value
-//     let asunto = e.target.asunto.value
-//     const person = {
-//         nombre : nombre,
-//         correo : correo,
-//         telefono : telefono,
-//         asunto : asunto
-//     }
-//     console.log(person)
-// });
+
+const form = document.getElementById('formulario')
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Temporalmente desabilitado')
+    let nombre = e.target.nombre.value
+    let correo = e.target.correo.value
+    let telefono = e.target.nombre.value
+    let asunto = e.target.asunto.value
+    const person = {
+        nombre : nombre,
+        correo : correo,
+        telefono : telefono,
+        asunto : asunto
+    }
+    console.log(person)
+});
+const form2 = document.getElementById('formulario2')
+form2.addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Temporalmente desabilitado')
+    let nombre = e.target.nombre.value
+    let correo = e.target.correo.value
+    let telefono = e.target.nombre.value
+    let asunto = e.target.asunto.value
+    const person = {
+        nombre : nombre,
+        correo : correo,
+        telefono : telefono,
+        asunto : asunto
+    }
+    console.log(person)
+});
